@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const isValidTriangle = ( a, b, c ) => ( a + b > c ) && ( a + c > b ) && ( b + c > a );
 
-fs.readFile( 'day3.txt', ( err, data ) => {
+fs.readFile( 'day03.txt', ( err, data ) => {
 	if (err) {
 		return console.error(err); // eslint-disable-line no-console
 	}

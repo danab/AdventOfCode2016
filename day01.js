@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-fs.readFile( 'day1.txt', ( err, data ) => {
+fs.readFile( 'day01.txt', ( err, data ) => {
 	if ( err ) {
 		return console.error( err ); // eslint-disable-line no-console
 	}
@@ -36,10 +36,9 @@ fs.readFile( 'day1.txt', ( err, data ) => {
 
 	// Answer 1
 	console.log( 'Answer 1 - ', pos, pos[0] + pos[1]); // eslint-disable-line no-console
-
 });
 
-fs.readFile( 'day1.txt', ( err, data ) => {
+fs.readFile( 'day01.txt', ( err, data ) => {
 	if (err) {
 		return console.error(err); // eslint-disable-line no-console
 	}

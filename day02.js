@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-fs.readFile( 'day2.txt', ( err, data ) => {
+fs.readFile( 'day02.txt', ( err, data ) => {
 	if (err) {
 		return console.error(err); // eslint-disable-line no-console
 	}
@@ -88,6 +88,7 @@ fs.readFile( 'day2.txt', ( err, data ) => {
 			C: 'B',
 		}
 	};
+
 	let code1 = '';
 	lines.forEach( ( line ) => {
 		line.split('').forEach( ( dir ) => {
